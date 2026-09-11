@@ -1,0 +1,42 @@
+/* CSS reset, dit niet aanpassen! */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hieronder mag je eigen CSS code */
+
+body {display:grid; grid-template-columns: 10vw 20vw 20vw 20vw 20vw 10vw; grid-template-rows: 20vh 5vh vh8 40vh 40vh 60vh 4vh 20vh; 
+  background-color:rgb(151, 217, 221) ; font-family: Arial, sans-serif;}
+#boven{grid-column: 1 / 7; grid-row: 1 / 2;}
+#home{grid-column: 2 / 6; grid-row: 2 / 3;}
+#mijndiv1 {grid-column: 2 / 6; grid-row: 3 / 4; color:aliceblue; font-size: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+p {color: rgb(54, 84, 137);}
+h1 {background-color:rgb(95, 191, 223); color:rgb(31, 81, 102); font-family: 'Courier New', Courier, monospace; font-size: 4rem; text-align: center;}
+img {height: 400px;}
+#mijnDiv1{background-image:url("./images/Waves.jpg");background-size: cover;}
+.mijndivs{margin: 1.2rem; padding: 1.0rem; background-color: rgb(177, 237, 237);}
+#mijnDiv3{border: 3px solid rgb(5, 84, 116); width: 36vw; height: 26vw; grid-column: 2 / 6; grid-row: 8 / 9;}
+#mijnDiv2{font-size: 24px; grid-column: 2 / 6; grid-row: 4 / 5; border-radius: 15px;}
+a{color: rgb(5, 61, 86);}
+a:hover{color: rgb(93, 236, 188);}
+#myFace{width: 500px; height: 800px; background-image: url("images/Percy\ else.jpeg"); background-size: contain; background-repeat: no-repeat; background-position: center; grid-column: 2 / 4; grid-row: 6 / 7;}
+
+.caracter{padding: 5px; font-size: 20px; font-family: 'Times New Roman', Times, serif; display: flex ;align-items: flex-end; color: azure;}
+#percy{background-image: url("images/Percy\ happy.jpeg"); background-size: contain; background-repeat: no-repeat; height: 400px; grid-column: 2 / 3; grid-row: 5 / 6;}
+#Annabeth{background-image: url("images/Annabeth.webp"); background-size: contain; background-repeat: no-repeat; height: 400px; grid-column: 3 / 4; grid-row: 5 / 6;}
+#Grover{background-image: url("images/Grover.webp"); background-size: contain; background-repeat: no-repeat; height: 400px; grid-column: 4 / 5; grid-row: 5 /6;}
+#Luke{background-image: url("images/Luke.jpg"); background-size: contain; background-repeat: no-repeat; height: 400px; grid-column: 5 / 6; grid-row: 5 / 6;}
+#links{grid-column: 2 / 6; grid-row: 7 / 8;}
